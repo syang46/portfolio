@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fancy Flora</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        :root {
+        	--page-content-main-color: #F7A47E;
+        }
+    </style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		function expandMenu() {
+		  var x = document.getElementById("topnav-id");
+		  if (x.className === "topnav-right") {
+		    x.className += " expanded";
+		  } else {
+		    x.className = "topnav-right";
+		  }
+		}
+	</script>
+</head>
+<body>
+<div class="topnav">
+	<div class="topnav-icons">
+		<a href="home.html">
+			<img class="topnav-logo" src="img/logo.png">
+		</a>
+		<a href="javascript:void(0);" class="icon" onclick="expandMenu()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+	<div class="topnav-right" id="topnav-id">
+		<a href="home.html">Work</a>
+		<a href="about.html">About</a>
+		<a href="resume.html">Resume</a>
+	</div>
+</div>
+
+<div class="case-content-container" style="text-align: center;">
+	<img style="width: 80%;" src="img/fancyflora/title-img.png"/>
+</div>
+<div class="container">
+	<div class="case-content-container">
+		<div class="case-content">
+			<div class="case-content-part case-content-title">
+				Overview
+			</div>
+			<div class="case-content-part">
+				<p class="case-content-desc">
+					Fancy Flora is a website for selling flowers. Users can choose different kinds of bouquets and buy them online. The site will also provide a delivery service.
+					<br>
+					I used HTML/CSS/PHP/JavaScript to create this project. I also created an admin page to manage the backend, where you can edit product information, add and remove items.
+
+					<br><br>
+					Please visit <a href="http://shifan.me/wnm608/index.php" target="_blank">shifan.me/wnm608</a> for more details.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="case-content-container">
+		<div class="case-content-title"> Home Page </div>
+		<img class="case-content-poster-img" src="img/fancyflora/home.png"/>
+	</div>
+
+	<div class="case-content-container">
+		<div class="case-content-title"> Product Page </div>
+		<img class="case-content-poster-img" src="img/fancyflora/product.png"/>
+	</div>
+
+	<div class="case-content-container">
+		<div class="case-content-title"> Listing Page </div>
+		<img class="case-content-poster-img" src="img/fancyflora/listing.png"/>
+	</div>
+
+	<div class="case-content-container">
+		<div class="case-content-title"> Shop Cart </div>
+		<img class="case-content-poster-img" src="img/fancyflora/cart.png"/>
+	</div>
+
+	<div class="case-content-container">
+		<div class="case-content-title"> Admin Page </div>
+		<img class="case-content-poster-img" src="img/fancyflora/admin.png"/>
+	</div>
+
+	<div class="case-content-container">
+		<div class="case-content-title"> Contact Page </div>
+		<img class="case-content-poster-img" src="img/fancyflora/contact.png"/>
+	</div>
+</div>
+
+<footer class="footer" style="margin-top: 20em;">
+	<div style="text-align: center; margin-bottom: 5em;">
+		<div style="font-size: 1.5em; font-weight: 500; margin-bottom: 0.5em;">Let’s Connect</div>
+		<p style="font-size: 1.05em; margin-bottom: 1.5em;">Get in touch for opportunities or just to say Hi! 😊</p>
+		<a href="https://www.linkedin.com/in/shifan-yang-7101721b5/" target="_blank" style="color: black; font-size: 1.6em;"> <i class="fa fa-linkedin"></i></i></a>
+		<a href="https://www.behance.net/shifanyang" target="_blank" style="color: black; font-size: 1.5em; margin-left: 1em;"> <i class="fa fa-behance"></i></i></a>
+		<a href="mailto: yangshifan21@gmail.com" target="_blank" style="color: black; font-size: 1.5em; margin-left: 1em;"> <i class="fa fa-envelope"></i></i></a>
+	</div>
+</footer>
+
+</body>
+</html>

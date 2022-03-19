@@ -1,0 +1,244 @@
+body {
+ font-family: 'Montserrat';
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    margin-top: 2em;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {  
+  color: black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  margin-right: 10%;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav-logo {
+  width: 120px; 
+  margin-left: 4em;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav-icons {
+    display: block;
+    overflow: hidden;
+  }
+
+  .topnav-right {
+    margin-right: 1em;
+  }
+
+  .topnav-logo {
+    width: 80px;
+    margin-left: 1em;
+  }
+
+  .topnav-icons a.icon {
+    float: right;
+    display: block;
+    margin-right: 1em;
+  }
+
+  .topnav-right a {display: none;}
+  .topnav-right.expanded {position: relative;}
+  .topnav-right.expanded a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
+}
+
+.welcome-text {
+  font-size: 4em; 
+  line-height: 1.5em;
+}
+
+@media screen and (max-width: 416px) {
+  .welcome-text {
+    font-size: 2em; 
+    line-height: 1.5em;
+  }
+}
+
+.project-section {
+  margin-top: 10%;
+}
+
+.project-preview-title {
+  margin-top: 15%;
+  font-size: 2em;
+}
+
+.project-preview-img {
+  width: 40%;
+  display: block;
+  margin-left: 15%;
+}
+
+.project-preview-img-small {
+  width: 50%;
+  display: block;
+  margin-left: 15%;
+}
+
+
+.project-grid-desc {
+
+}
+
+.project-preview-desc {
+  width: 60%;
+  margin-left: 15%;
+  font-size: 1.15em;
+}
+
+.project-preview-link {
+  color: black;
+  margin-left: 15%;
+  font-size: 1.15em;
+}
+
+.footer {
+  margin-top: 10%;
+}
+
+.footer-half {
+  flex: 1;
+  padding-top: 3em;
+  padding-bottom: 2em;  
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+/* Case study */
+
+.case-title-container {
+  background: linear-gradient(white 0%, white 40%, var(--page-content-main-color) 40%, var(--page-content-main-color) 100%);
+  margin-top: 3em;
+}
+
+.case-content-skill-container {
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+
+.case-title {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-weight: bolder;
+  padding-bottom: 1em;
+}
+
+.case-title-img {
+  width: 30%;
+}
+
+.case-content-container  {
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6em;
+}
+
+.case-content {
+  display: flex;
+  margin-top: 3em;
+}
+
+@media screen and (max-width: 416px) {
+  .case-content {
+    flex-direction: column;
+  }
+}
+
+.case-content-title {
+  color: var(--page-content-main-color);
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+.case-content-desc {  
+  font-size: 1.25em;
+}
+
+.case-content-skill-title {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.case-content-skill-desc {
+  margin-top: 2em;
+}
+
+.case-research-desc {
+}
+
+.case-user-flow-desc {
+}
+
+.case-content-part {
+  flex: 1;
+}
+
+.case-content-persona-img {
+  width: 100%;
+  margin-bottom: 1em; 
+}
+
+.case-content-research-img {
+  width: 100%;
+}
+
+.case-content-title-design {
+  margin-bottom: 2em;
+}
+
+.case-content-hifi-design-img {
+  width: 80%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.case-content-takeaways {
+  margin-top: 10em;
+  margin-bottom: 15%;
+}
+
+.case-content-poster-img {
+  width: 100%;
+}

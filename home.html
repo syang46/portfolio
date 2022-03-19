@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shifan's Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        :root {
+        	--page-content-main-color: #DFBCA1;
+        }
+    </style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		function expandMenu() {
+		  var x = document.getElementById("topnav-id");
+		  if (x.className === "topnav-right") {
+		    x.className += " expanded";
+		  } else {
+		    x.className = "topnav-right";
+		  }
+		}
+	</script>
+</head>
+<body>
+<div class="topnav">
+	<div class="topnav-icons">
+		<a href="home.html">
+			<img class="topnav-logo" src="img/logo.png">
+		</a>
+		<a href="javascript:void(0);" class="icon" onclick="expandMenu()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+	<div class="topnav-right" id="topnav-id">
+		<a class="active" href="#">Work</a>
+		<a href="about.html">About</a>
+		<a href="resume.html">Resume</a>
+	</div>
+</div>
+
+<div class="container">
+	<div style="margin-top: 5em; margin-bottom: 25em;">
+		<img src="img/background.png" style="position: absolute; width: 17%; margin-left: 50%; margin-top: -1%; z-index: -1;"/>
+		<p class= "welcome-text">
+			Hey there, I’m Shifan, a cooking lover,
+			<br> 
+			human observer,
+			<br>
+			and product designer. 
+		</p>
+		<div style="float: right; margin-top: 10em;">
+			<a href="https://www.linkedin.com/in/shifan-yang-7101721b5/" target="_blank" style="color: black; font-size: 1.6em;"> <i class="fa fa-linkedin"></i></i></a>
+			<a href="https://www.behance.net/shifanyang" target="_blank" style="color: black; font-size: 1.5em; margin-left: 1em;"> <i class="fa fa-behance"></i></i></a>
+			<a href="mailto: yangshifan21@gmail.com" target="_blank" style="color: black; font-size: 1.5em; margin-left: 1em;"> <i class="fa fa-envelope"></i></i></a>
+		</div>
+	</div>
+
+	<div class="row project-section">
+		<div class="col-sm-6">
+			<a class="project-preview-link" href="fitogether.html">
+				<img class="project-preview-img" src="img/fitogether.png"/>
+			</a>
+		</div>
+		<div class="col-sm-6">
+			<div class="project-preview-title">
+				<a class="project-preview-link" href="fitogether.html">
+					Fitogether
+				</a>
+			</div>
+			<p class="project-preview-desc">
+				<br>
+				A mobile application that allows people to get guidance from professional trainers while working out with friends without limitation of venue and time.
+			</p>
+			<a class="project-preview-link" href="fitogether.html"> View case study ⟶ </a>
+		</div>
+	</div>
+
+	<div class="row project-section">
+		<div class="col-sm-6">
+			<a class="project-preview-link" href="jumpstart.html">
+				<img class="project-preview-img" src="img/jumpstart.png"/>
+			</a>
+		</div>
+		<div class="col-sm-6">
+			<div class="project-preview-title">
+				<a class="project-preview-link" href="jumpstart.html">
+					Jumpstart Redesign
+				</a>
+			</div>
+			<p class="project-preview-desc">
+				<br/>
+				Our team wants to build up the concept and the app to support and help whoever is now isolated at home to get connected with updated featured career advice and peers' experience.
+			</p>
+			<a class="project-preview-link" href="jumpstart.html"> View case study ⟶ </a>
+		</div>
+	</div>
+
+	<div class="row project-section">
+		<div class="col-sm-6">
+			<a class="project-preview-link" href="routesy.html">
+				<img class="project-preview-img" src="img/routesy.png"/>
+			</a>
+		</div>
+		<div class="col-sm-6 project-grid-desc">
+			<div class="project-preview-title">
+				<a class="project-preview-link" href="routesy.html">
+					Routesy Redesign
+				</a>
+			</div>
+			<p class="project-preview-desc">
+				<br/>
+				Hopefully, my redesign can make users have a more convenient and practical user experience.
+			</p>
+			<a class="project-preview-link" href="routesy.html"> View case study ⟶ </a>
+		</div>
+	</div>
+
+	<div class="row project-section">
+		<div class="col-sm-6">
+			<a class="project-preview-link" href="oneonly.html">
+				<img class="project-preview-img" src="img/oneonly.png"/>
+			</a>
+		</div>
+		<div class="col-sm-6">
+			<div class="project-preview-title">
+				<a class="project-preview-link" href="oneonly.html">
+					ONE&ONLY
+				</a>
+			</div>
+			<p class="project-preview-desc">
+				<br/>
+				One&Only is a new platform that I created to help those girls who want to make their unique wedding dress.
+			</p>
+			<a class="project-preview-link" href="oneonly.html"> View case study ⟶ </a>
+		</div>
+	</div>
+
+	<div class="row project-section">
+		<div class="col-sm-6">
+			<a class="project-preview-link" href="3r.html">
+				<img class="project-preview-img-small" src="img/3r.png"/>
+			</a>
+		</div>
+		<div class="col-sm-6">
+			<div class="project-preview-title">
+				<a class="project-preview-link" href="3r.html">
+					3R
+				</a>
+			</div>
+			<p class="project-preview-desc">
+				<br/>
+				“3R” stands for Reduce, Refuse, Reuse plastics. It is a platform, resource, and tool that helps people educate, engage, and empower themselves and others to help save the planet.
+			</p>
+			<a class="project-preview-link" href="3r.html"> View case study ⟶ </a>
+		</div>
+	</div>
+
+	<div class="row project-section">
+		<div class="col-sm-6">
+			<a class="project-preview-link" href="fancyflower.html">
+				<img class="project-preview-img-small" src="img/flower.png"/>
+			</a>
+		</div>
+		<div class="col-sm-6">
+			<div class="project-preview-title">
+				<a class="project-preview-link" href="fancyflower.html">
+					Fancy Flora
+				</a>
+			</div>
+			<p class="project-preview-desc">
+				<br/>
+				Fancy Flora is a website for selling flowers. Users can choose different kinds of bouquets and buy them online. 
+			</p>
+			<a class="project-preview-link" href="fancyflower.html"> View case study ⟶ </a>
+		</div>
+	</div>
+</div>
+
+<footer class="footer">
+	<div style="text-align: center; margin-bottom: 5em;">
+		<div style="font-size: 1.5em; font-weight: 500; margin-bottom: 0.5em;">Let’s Connect</div>
+		<p style="font-size: 1.05em; margin-bottom: 1.5em;">Get in touch for opportunities or just to say Hi! 😊</p>
+		<a href="https://www.linkedin.com/in/shifan-yang-7101721b5/" target="_blank" style="color: black; font-size: 1.6em;"> <i class="fa fa-linkedin"></i></i></a>
+		<a href="https://www.behance.net/shifanyang" target="_blank" style="color: black; font-size: 1.5em; margin-left: 1em;"> <i class="fa fa-behance"></i></i></a>
+		<a href="mailto: yangshifan21@gmail.com" target="_blank" style="color: black; font-size: 1.5em; margin-left: 1em;"> <i class="fa fa-envelope"></i></i></a>
+	</div>
+</footer>
+
+</body>
+</html>

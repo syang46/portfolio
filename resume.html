@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        :root {
+        	--page-content-main-color: #DFBCA1;
+        }
+    </style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		function expandMenu() {
+		  var x = document.getElementById("topnav-id");
+		  if (x.className === "topnav-right") {
+		    x.className += " expanded";
+		  } else {
+		    x.className = "topnav-right";
+		  }
+		}
+	</script>
+</head>
+<body>
+<div class="topnav">
+	<div class="topnav-icons">
+		<a href="home.html">
+			<img class="topnav-logo" src="img/logo.png">
+		</a>
+		<a href="javascript:void(0);" class="icon" onclick="expandMenu()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+	<div class="topnav-right" id="topnav-id">
+		<a href="home.html">Work</a>
+		<a href="about.html">About</a>
+		<a href="#">Resume</a>
+	</div>
+</div>
+
+<div class="container">
+	<div style="text-align: center; margin-top: 3em;">
+		<img src="img/resume/resume.png" style="width: 80%;" />
+	</div>
+</div>
+
+<footer class="footer" style="margin-top: 10%;">
+	<div style="text-align: center; margin-bottom: 5em;">
+		<div style="font-size: 1.5em; font-weight: 500; margin-bottom: 0.5em;">Let’s Connect</div>
+		<p style="font-size: 1.05em; margin-bottom: 1.5em;">Get in touch for opportunities or just to say Hi! 😊</p>
+		<a href="https://www.linkedin.com/in/shifan-yang-7101721b5/" target="_blank" style="color: black; font-size: 1.6em;"> <i class="fa fa-linkedin"></i></i></a>
+		<a href="https://www.behance.net/shifanyang" target="_blank" style="color: black; font-size: 1.5em; margin-left: 1em;"> <i class="fa fa-behance"></i></i></a>
+		<a href="mailto: yangshifan21@gmail.com" target="_blank" style="color: black; font-size: 1.5em; margin-left: 1em;"> <i class="fa fa-envelope"></i></i></a>
+	</div>
+</footer>
+
+</body>
+</html>
